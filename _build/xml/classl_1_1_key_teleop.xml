@@ -1,0 +1,493 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classl_1_1_key_teleop" kind="class" language="Python" prot="public">
+    <compoundname>l::KeyTeleop</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classl_1_1_key_teleop_1a5e8d19cf6b7c75dac0b0d90203fb9cae" prot="public" static="yes" mutable="no">
+        <type>dictionary</type>
+        <definition>dictionary l.KeyTeleop::cmd_bindings</definition>
+        <argsstring></argsstring>
+        <name>cmd_bindings</name>
+        <initializer>=  {&apos;q&apos;: np.array([1, 1]),
+                  &apos;w&apos;: np.array([1, 0]),
+                  &apos;e&apos;: np.array([1, -1]),
+                  &apos;a&apos;: np.array([0, 1]),
+                  &apos;d&apos;: np.array([0, -1]),
+                  &apos;z&apos;: np.array([-1, -1]),
+                  &apos;x&apos;: np.array([-1, 0]),
+                  &apos;c&apos;: np.array([-1, 1])
+                  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="40" column="1" bodyfile="scripts/l.py" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classl_1_1_key_teleop_1aa6b819779ce67d8d6eaedb3ce3e31f58" prot="public" static="yes" mutable="no">
+        <type>dictionary</type>
+        <definition>dictionary l.KeyTeleop::set_bindings</definition>
+        <argsstring></argsstring>
+        <name>set_bindings</name>
+        <initializer>=  {&apos;t&apos;: np.array([1, 1]),
+                  &apos;b&apos;: np.array([-1, -1]),
+                  &apos;y&apos;: np.array([1, 0]),
+                  &apos;n&apos;: np.array([-1, 0]),
+                  &apos;u&apos;: np.array([0, 1]),
+                  &apos;m&apos;: np.array([0, -1])
+                }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="49" column="1" bodyfile="scripts/l.py" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classl_1_1_key_teleop_1ab4abe4c0b5476d2693a196d60a0e89fd" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>l.KeyTeleop::r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <initializer>=  rospy.Rate(self.update_rate)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This is run function, use to execuit programm and update rate
+Arg:
+ self(bool,float)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="106" column="1" bodyfile="scripts/l.py" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classl_1_1_key_teleop_1a3b39e30e6140c7604a5c3df416184bbb" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>l.KeyTeleop::ch</definition>
+        <argsstring></argsstring>
+        <name>ch</name>
+        <initializer>=  self.get_key()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="108" column="1" bodyfile="scripts/l.py" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classl_1_1_key_teleop_1a5aabcd36b15b6d46351b60827b176ced" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>l.KeyTeleop::settings</definition>
+        <argsstring></argsstring>
+        <name>settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="69" column="1" bodyfile="scripts/l.py" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classl_1_1_key_teleop_1a97dd1a67b781d519c73bffc2f486075e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>l.KeyTeleop::inc_ratio</definition>
+        <argsstring></argsstring>
+        <name>inc_ratio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="72" column="1" bodyfile="scripts/l.py" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classl_1_1_key_teleop_1a9cad9a668ddba55d8c24a9041f918c42" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>l.KeyTeleop::speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="73" column="1" bodyfile="scripts/l.py" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classl_1_1_key_teleop_1a07173723fb7733efa0550c5a796aa38a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>l.KeyTeleop::command</definition>
+        <argsstring></argsstring>
+        <name>command</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="74" column="1" bodyfile="scripts/l.py" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classl_1_1_key_teleop_1a26b98a7c725fec24ba8b45a178d1a05f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>l.KeyTeleop::update_rate</definition>
+        <argsstring></argsstring>
+        <name>update_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="75" column="1" bodyfile="scripts/l.py" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classl_1_1_key_teleop_1a9a6f89e90fd8ced2b009198874915b2d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>l.KeyTeleop::alive</definition>
+        <argsstring></argsstring>
+        <name>alive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="76" column="1" bodyfile="scripts/l.py" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classl_1_1_key_teleop_1ad05d8fb9e2ea8733426ab43e6ac57b79" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>l.KeyTeleop::using_teleop</definition>
+        <argsstring></argsstring>
+        <name>using_teleop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="77" column="1" bodyfile="scripts/l.py" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classl_1_1_key_teleop_1a2097e2f9dea0b88cc1d81cf5b003b59c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>l.KeyTeleop::pub_twist</definition>
+        <argsstring></argsstring>
+        <name>pub_twist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="80" column="1" bodyfile="scripts/l.py" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classl_1_1_key_teleop_1a0136ebcb31bd495373feb975f6a61c5f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>l.KeyTeleop::pub_using_telop</definition>
+        <argsstring></argsstring>
+        <name>pub_using_telop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="81" column="1" bodyfile="scripts/l.py" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classl_1_1_key_teleop_1aefcf7da461229176a8b7fb0841cb122e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>l.KeyTeleop::timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="84" column="1" bodyfile="scripts/l.py" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classl_1_1_key_teleop_1aae31327ac60a5e1cdea9645f6b8de22f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def l.KeyTeleop.init</definition>
+        <argsstring>(self)</argsstring>
+        <name>init</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This is initial function set global variabiles
+Arg:
+self(bool,folat): set global variabiles
+
+Publishes to:
+/cmd_vel (geometry_msgs/Twist)
+/using_telop
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="57" column="1" bodyfile="scripts/l.py" bodystart="57" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classl_1_1_key_teleop_1a55188febebf14d224f7d1ff962108df3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def l.KeyTeleop.fini</definition>
+        <argsstring>(self)</argsstring>
+        <name>fini</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This is fini function to restore terminal settings and stop timer
+Arg:
+self(bool,float)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="86" column="1" bodyfile="scripts/l.py" bodystart="86" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classl_1_1_key_teleop_1a3093f3c88e4f4e08ed0dcfc4ba66ee6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def l.KeyTeleop.using_teleop_timer</definition>
+        <argsstring>(self, event)</argsstring>
+        <name>using_teleop_timer</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>event</type>
+          <defname>event</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="93" column="1" bodyfile="scripts/l.py" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classl_1_1_key_teleop_1a10b44e13d9f965b6cdc3806484ee1649" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def l.KeyTeleop.run</definition>
+        <argsstring>(self)</argsstring>
+        <name>run</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="97" column="1" bodyfile="scripts/l.py" bodystart="97" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classl_1_1_key_teleop_1a6ee8905402b00ecfeef2de89ed523ad4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def l.KeyTeleop.print_usage</definition>
+        <argsstring>(self)</argsstring>
+        <name>print_usage</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This is print_usage, demonstrates keyboard instruction
+Arg:
+self(bool,float)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="116" column="1" bodyfile="scripts/l.py" bodystart="116" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classl_1_1_key_teleop_1a85778d623691b45926d020238868522d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def l.KeyTeleop.loginfo</definition>
+        <argsstring>(self, str)</argsstring>
+        <name>loginfo</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <defname>str</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This is loginfo function, used to print items to screen
+Arg:
+self(bool,string)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="140" column="1" bodyfile="scripts/l.py" bodystart="140" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classl_1_1_key_teleop_1a65033db5e2f961cf5796322a90bb0457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def l.KeyTeleop.show_status</definition>
+        <argsstring>(self)</argsstring>
+        <name>show_status</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This is show_status function, used to print teleop status
+Arg:
+self(bool,float)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="150" column="1" bodyfile="scripts/l.py" bodystart="150" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classl_1_1_key_teleop_1a90c9b0cb6ca41670f3e4c1f88cfb0cd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def l.KeyTeleop.process_key</definition>
+        <argsstring>(self, ch)</argsstring>
+        <name>process_key</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>ch</type>
+          <defname>ch</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This is process_key function, for everything that can&apos;t be a binding, use if/elif instead
+Arg:
+self(bool,string)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="159" column="1" bodyfile="scripts/l.py" bodystart="159" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classl_1_1_key_teleop_1a865bb9102e8f313ebf4bdb894d1120ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def l.KeyTeleop.update</definition>
+        <argsstring>(self)</argsstring>
+        <name>update</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This is update function to keep update terminal and publish new information
+Arg:
+self(bool,float)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="189" column="1" bodyfile="scripts/l.py" bodystart="189" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classl_1_1_key_teleop_1a4e3da71896b0f46c26d180d810f35a4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def l.KeyTeleop.get_key</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_key</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This is get_key function, get direction or velocity from user via keyboard
+Arg:
+self(bool,float)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="204" column="1" bodyfile="scripts/l.py" bodystart="204" bodyend="213"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>  class define two different categories of characters for orientation and speed, more info `&lt;http://wiki.ros.org/teleop_twist_keyboard&gt;`_
+  Arg:
+  object(np.array): a kind of array already defined in python that each array indicates a direction or speed,
+  the different arrays can be accessed by their indicative letter
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>l.KeyTeleop</label>
+        <link refid="classl_1_1_key_teleop"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>l.KeyTeleop</label>
+        <link refid="classl_1_1_key_teleop"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="scripts/l.py" line="32" column="1" bodyfile="scripts/l.py" bodystart="32" bodyend="215"/>
+    <listofallmembers>
+      <member refid="classl_1_1_key_teleop_1a9a6f89e90fd8ced2b009198874915b2d" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>alive</name></member>
+      <member refid="classl_1_1_key_teleop_1a3b39e30e6140c7604a5c3df416184bbb" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>ch</name></member>
+      <member refid="classl_1_1_key_teleop_1a5e8d19cf6b7c75dac0b0d90203fb9cae" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>cmd_bindings</name></member>
+      <member refid="classl_1_1_key_teleop_1a07173723fb7733efa0550c5a796aa38a" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>command</name></member>
+      <member refid="classl_1_1_key_teleop_1a55188febebf14d224f7d1ff962108df3" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>fini</name></member>
+      <member refid="classl_1_1_key_teleop_1a4e3da71896b0f46c26d180d810f35a4d" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>get_key</name></member>
+      <member refid="classl_1_1_key_teleop_1a97dd1a67b781d519c73bffc2f486075e" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>inc_ratio</name></member>
+      <member refid="classl_1_1_key_teleop_1aae31327ac60a5e1cdea9645f6b8de22f" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>init</name></member>
+      <member refid="classl_1_1_key_teleop_1a85778d623691b45926d020238868522d" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>loginfo</name></member>
+      <member refid="classl_1_1_key_teleop_1a6ee8905402b00ecfeef2de89ed523ad4" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>print_usage</name></member>
+      <member refid="classl_1_1_key_teleop_1a90c9b0cb6ca41670f3e4c1f88cfb0cd3" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>process_key</name></member>
+      <member refid="classl_1_1_key_teleop_1a2097e2f9dea0b88cc1d81cf5b003b59c" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>pub_twist</name></member>
+      <member refid="classl_1_1_key_teleop_1a0136ebcb31bd495373feb975f6a61c5f" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>pub_using_telop</name></member>
+      <member refid="classl_1_1_key_teleop_1ab4abe4c0b5476d2693a196d60a0e89fd" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>r</name></member>
+      <member refid="classl_1_1_key_teleop_1a10b44e13d9f965b6cdc3806484ee1649" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>run</name></member>
+      <member refid="classl_1_1_key_teleop_1aa6b819779ce67d8d6eaedb3ce3e31f58" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>set_bindings</name></member>
+      <member refid="classl_1_1_key_teleop_1a5aabcd36b15b6d46351b60827b176ced" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>settings</name></member>
+      <member refid="classl_1_1_key_teleop_1a65033db5e2f961cf5796322a90bb0457" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>show_status</name></member>
+      <member refid="classl_1_1_key_teleop_1a9cad9a668ddba55d8c24a9041f918c42" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>speed</name></member>
+      <member refid="classl_1_1_key_teleop_1aefcf7da461229176a8b7fb0841cb122e" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>timer</name></member>
+      <member refid="classl_1_1_key_teleop_1a865bb9102e8f313ebf4bdb894d1120ed" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>update</name></member>
+      <member refid="classl_1_1_key_teleop_1a26b98a7c725fec24ba8b45a178d1a05f" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>update_rate</name></member>
+      <member refid="classl_1_1_key_teleop_1ad05d8fb9e2ea8733426ab43e6ac57b79" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>using_teleop</name></member>
+      <member refid="classl_1_1_key_teleop_1a3093f3c88e4f4e08ed0dcfc4ba66ee6b" prot="public" virt="non-virtual"><scope>l::KeyTeleop</scope><name>using_teleop_timer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
