@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classteleop__twist__keyboard_1_1_publish_thread" kind="class" language="Python" prot="public">
+    <compoundname>teleop_twist_keyboard::PublishThread</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Thread</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>.. function:: This is initial function, there are some global variabiles for different dirction
+
+Reading from the keyboard  and Publishing to Twist!
+ ---------------------------
+ 
+=====  =====  ======
+   Moving around     
+-------------------- 
+  u  i   o  
+  j  k   l
+  m  ,   . 
+=====  =====  ======
+
+=======  =======  =======
+Holonomic mode(strafing)    
+------------------------- 
+  U    I        O  
+  J    K        L
+  M    &lt;        &gt; 
+=======  =======  =======
+
+t : up (+z)
+
+b : down (-z)
+
+anything else : stop
+
+q/z : increase/decrease max speeds by 10%
+
+w/x : increase/decrease only linear speed by 10%
+
+e/c : increase/decrease only angular speed by 10%
+
+CTRL-C to change robot behaviour
+
+:info binding input keys for moving the robot
+  class define two different categories of characters for orientation and speed, more info `&lt;http://wiki.ros.org/     teleop_twist_keyboard&gt;`_
+
+Arg:
+ self(float,bool): self represents the instance of the class
+
+Publisher: publish an array of data relative to speed
+  /cmd_vel(Twist)
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>threading::Thread</label>
+      </node>
+      <node id="1">
+        <label>teleop_twist_keyboard.PublishThread</label>
+        <link refid="classteleop__twist__keyboard_1_1_publish_thread"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>threading::Thread</label>
+      </node>
+      <node id="1">
+        <label>teleop_twist_keyboard.PublishThread</label>
+        <link refid="classteleop__twist__keyboard_1_1_publish_thread"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="scripts/teleop_twist_keyboard.py" line="145" column="1" bodyfile="scripts/teleop_twist_keyboard.py" bodystart="145" bodyend="193"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

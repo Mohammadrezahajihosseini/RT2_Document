@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacel" kind="namespace" language="Python">
+    <compoundname>l</compoundname>
+    <innerclass refid="classl_1_1_key_teleop" prot="public">l::KeyTeleop</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacel_1a8be94a4bd3551c8c6f73e2de8a0c82cb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>l.teleop</definition>
+        <argsstring></argsstring>
+        <name>teleop</name>
+        <initializer>=  <ref refid="classl_1_1_key_teleop" kindref="compound">KeyTeleop</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/l.py" line="217" column="1" bodyfile="scripts/l.py" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>.. module:: teleop_twist_keyboard
+:platform: Unix
+:synopsis: Python module for control behaivor of robot
+.. moduleauthor:: Mohammad Reza Haji Hosseini *4394567@studenti.unige.it*
+This node implements an user interface to guide robot with keyboard
+
+Service:
+   /user_interface
+
+Publishes to:
+   /cmd_vel (geometry_msgs/Twist)
+   /using_telop
+
+Description:
+ The script Keyboard Teleop, control dirction and velocity of robot from keyboard by user
+</verbatim> </para>
+    </detaileddescription>
+    <location file="scripts/l.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

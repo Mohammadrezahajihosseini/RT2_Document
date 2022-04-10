@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacemovebase__client" kind="namespace" language="Python">
+    <compoundname>movebase_client</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacemovebase__client_1a301bd2a5ac4a79cd0376e080cb3bcf8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def movebase_client.movebase_clinet</definition>
+        <argsstring>()</argsstring>
+        <name>movebase_clinet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>.. function:: This function allows the user to choose coordinates in three steps:
+
+      1. Create an action client called &quot;move_base&quot; with action 
+      definition file &quot;MoveBaseAction&quot;
+      
+      2. Creates a new goal with the MoveBaseGoal constructor
+      
+      3. Gets goal position from user
+      There is also option to return to main terminal
+
+Service :
+ /move_base 
+
+goal: MoveBaseGoal()
+ pose.position(float):
+ 
+ x= by user
+ 
+ y= by user
+ 
+ w=1 
+ 
+Client:      
+ /move_base (SimpleActionClient)
+ 
+ ability: send_goal, cancel_goal, wait_for_server, get_result 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/movebase_client.py" line="33" column="1" bodyfile="scripts/movebase_client.py" bodystart="33" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemovebase__client_1a44b489132872ed46fa332a204c9776d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def movebase_client.main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>.. function::This is main function, here creat initiation node 
+   for movebase_client script and waiting for answer from user
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="scripts/movebase_client.py" line="105" column="1" bodyfile="scripts/movebase_client.py" bodystart="105" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>.. module:: movebase_client
+
+:platform: Unix
+:synopsis: Python module for control behaivor of robot
+
+:moduleauthor: Mohammad Reza Haji Hosseini &lt;4394567@studenti.unige.it&gt;
+
+ROS node for driving a robot to a specific point
+
+Service:
+ /user_interface
+
+Client: 
+ /move_base
+ 
+Description:
+   movebase client Node:
+  gets desired position from user and sends it to movebase node using 
+  actionlib and if the goal is not reached before timeout cancels it
+</verbatim> </para>
+    </detaileddescription>
+    <location file="scripts/movebase_client.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

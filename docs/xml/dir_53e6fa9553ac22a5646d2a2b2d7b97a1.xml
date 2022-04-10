@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_53e6fa9553ac22a5646d2a2b2d7b97a1" kind="dir">
+    <compoundname>scripts</compoundname>
+    <innerfile refid="master_8py">master.py</innerfile>
+    <innerfile refid="movebase__client_8py">movebase_client.py</innerfile>
+    <innerfile refid="teleop__twist__keyboard_8py">teleop_twist_keyboard.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="scripts/"/>
+  </compounddef>
+</doxygen>

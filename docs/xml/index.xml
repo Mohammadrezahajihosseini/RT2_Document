@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
+  <compound refid="classteleop__twist__keyboard_1_1_publish_thread" kind="class"><name>teleop_twist_keyboard::PublishThread</name>
+  </compound>
+  <compound refid="namespacemaster" kind="namespace"><name>master</name>
+    <member refid="namespacemaster_1a7acd9321025dea778a99374199d755a6" kind="function"><name>change_state</name></member>
+    <member refid="namespacemaster_1a1835cdc0fc647a2c5b5ccf8b5e6e1778" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="namespacemovebase__client" kind="namespace"><name>movebase_client</name>
+    <member refid="namespacemovebase__client_1a301bd2a5ac4a79cd0376e080cb3bcf8e" kind="function"><name>movebase_clinet</name></member>
+    <member refid="namespacemovebase__client_1a44b489132872ed46fa332a204c9776d9" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="namespacestd__srvs_1_1srv" kind="namespace"><name>std_srvs::srv</name>
+  </compound>
+  <compound refid="namespaceteleop__twist__keyboard" kind="namespace"><name>teleop_twist_keyboard</name>
+    <member refid="namespaceteleop__twist__keyboard_1adf2fc39e1632013b48a3e185375afa3c" kind="variable"><name>front_obs</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1a6edc3376da9f5277f480ae7fb543c910" kind="variable"><name>right_obs</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1ac10d83e7e8fcc0b9fd9ba9c57d242a4c" kind="variable"><name>left_obs</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1a05b0a9338891bd3fec11e4ad209312cc" kind="variable"><name>mesg</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1ae28c060f86ab132860fec7c474dd4b36" kind="variable"><name>moveBindings</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1a6cb8a3e04426e5ae4f26c875795e9d3c" kind="variable"><name>speedBindings</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1a86d8f94919c976572855ee1308055779" kind="variable"><name>publisher</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1a4796a8c40beeb853f66c07bde574e93a" kind="variable"><name>x</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1a5442d6360db5ea79af1d037d5f028f67" kind="variable"><name>y</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1ada005eccb37403f46cf520ca1c55b3be" kind="variable"><name>z</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1a1cdf0cc2cd5c5ce29751763d0f543fa3" kind="variable"><name>th</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1a52eeb1ac14f1131a1f81337f3b315f1f" kind="variable"><name>speed</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1a6775bc918ac9ea4e48e1028d26785029" kind="variable"><name>turn</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1af57abba4ea44579a6f9b465a51f8aa6f" kind="variable"><name>condition</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1aaba339e0537fc1653b810148740985af" kind="variable"><name>done</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1aa7fa570c710b19b7e5ea92929b0f1143" kind="variable"><name>timeout</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1acb23f3e385a1bada83e0641ff7c64ac7" kind="function"><name>clbk_laser</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1a2910ea53ac7468422050a43e6eaa6a0c" kind="function"><name>__init__</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1ac694bf06e2ff4e08010f7ac803f348b7" kind="function"><name>wait_for_subscribers</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1af7a0e60023e0f4c20fbd5f5e9e547cd0" kind="function"><name>update</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1a75f7c76e02937daf46662fc7fe6d1879" kind="function"><name>stop</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1acec6e8650d0bf1e2413cf64d6efcb45c" kind="function"><name>run</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1afb6980282ff65905548fb567f06c5cd3" kind="function"><name>getKey</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1ac423702448aec61a730bba88488da4d7" kind="function"><name>vels</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1a78169350a70463c833a69e2395683376" kind="function"><name>teleop</name></member>
+    <member refid="namespaceteleop__twist__keyboard_1a4ff8d6c8201ef1862e54107f6ad6282a" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="master_8py" kind="file"><name>master.py</name>
+  </compound>
+  <compound refid="movebase__client_8py" kind="file"><name>movebase_client.py</name>
+  </compound>
+  <compound refid="teleop__twist__keyboard_8py" kind="file"><name>teleop_twist_keyboard.py</name>
+  </compound>
+  <compound refid="dir_53e6fa9553ac22a5646d2a2b2d7b97a1" kind="dir"><name>scripts</name>
+  </compound>
+</doxygenindex>
