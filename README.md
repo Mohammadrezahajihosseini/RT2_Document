@@ -21,5 +21,5 @@ It’s easy to use other people’s work as a starting point. You can run cell b
 * Very easy to host server side, which is useful for security purposes. A lot of data is sensitive and should be protected, and one of the steps toward that is no data is stored on local machines. A server-side Jupyter Notebook setup gives you that for free.
 * When prototyping, the cell-based approach of Jupyter notebooks is great. But you quickly end up programming several steps; instead of looking at object-oriented programming.
 
-More information about jupyter notbook and how to install it on your system then refer to this link: (https://2021.aulaweb.unige.it/pluginfile.php/407745/mod_resource/content/0/rtII_2_2022.pdf)
+More information about jupyter notbook and how to install it on your system then refer to this [link](https://2021.aulaweb.unige.it/pluginfile.php/407745/mod_resource/content/0/rtII_2_2022.pdf)
 
