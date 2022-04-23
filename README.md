@@ -1,4 +1,4 @@
-# Research_Track2(Documentation)
+# Research_Track2
 
 *Develop third assignment of Research Track1 to control robot behavior.*
 
