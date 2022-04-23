@@ -84,7 +84,7 @@ Result after widget used
 ![Velocity](https://user-images.githubusercontent.com/80394968/164910208-442ac60b-f557-41e1-894f-cd3740131ba5.jpg)
 -------------------------------------------------------------------------------------
 - After run on cell 3D Viewer:
-  - you can see robot in 3D environment, like [RViz](http://wiki.ros.org/rviz).
+  - you can see robot in 3D environment, like [RViz](http://wiki.ros.org/rviz).In this kind of visualization you can see laser, robot path, map with obstacles
 
 ![3D](https://user-images.githubusercontent.com/80394968/164910302-3cc25a9e-775a-4bc1-94f4-0c0c5ab5ccac.jpg)
 
