@@ -3,7 +3,7 @@
 -------------------------------------------------------------------------------------
 # Research_Track2
 *Develop third assignment of Research Track1 to control robot behavior.*
-### For more information about code [click here](https://mohammadrezahajihosseini.github.io/Research_Track2/)
+### For more information about code documentaion [click here](https://mohammadrezahajihosseini.github.io/Research_Track2/)
 #
 Jupyter NoteBook
 ================================
@@ -38,7 +38,5 @@ Has also been used *jr.publish('/movebase_client_goal', String)* and *jr.publish
 Result after widget used 
 ----------------------
 
-  
- 
 
 
