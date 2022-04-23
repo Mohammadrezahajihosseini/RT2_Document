@@ -1,18 +1,13 @@
-# Research_Track2(Documentation)
+# Research_Track2
 
 *Develop third assignment of Research Track1 to control robot behavior.*
 ### For more information [click here](https://mohammadrezahajihosseini.github.io/Research_Track2/)
 -------------------------------------------------------------------------------------
 
 
-Introduction
+Jupyter NoteBook
 ================================
 
-Development of a software architecture for the control of a mobile robot. General idea to control a mobile robot in the gazebo area by different methods. The following ways to do this are divided into three parts:
-
-1. Use the coordinates entered by the user 
-2. Driving robots with keyboards
-3. Drive robots through user, avoid going against obstacles
 
 Installing and running
 ----------------------
