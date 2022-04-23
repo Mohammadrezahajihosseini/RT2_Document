@@ -41,19 +41,15 @@ Result after widget used
 > 
   you need to launch: 
   
-    ```
     roslaunch final_assignment simulation_gmapping.launch
     roslaunch final_assignment move_base.launch
     roslaunch final_assignment master.launch
-    ```
     
 > Second step
 > 
   you need to run jupyter notbook on you sys:
   
-    ```
       jupyter-notebook
-    ```
     
 > Third step
 >
