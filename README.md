@@ -71,7 +71,7 @@ Result after widget used
 - After run on cell Stop Button:
   - you can stop robot
 
-![stop](https://user-images.githubusercontent.com/80394968/164909960-4b9b20f6-16b5-4310-a900-d2062907751a.jpg)
+![stop](https://user-images.githubusercontent.com/80394968/164910442-d7bb0518-22ff-49fe-ae0f-3daa717340fd.jpg)
 -------------------------------------------------------------------------------------
 - After run on cell Driving with Keyboards:
   - you can drive robots with the following keys
@@ -87,6 +87,12 @@ Result after widget used
   - you can see robot in 3D environment, like [RViz](http://wiki.ros.org/rviz).In this kind of visualization you can see laser, robot path, map with obstacles
 
 ![3D](https://user-images.githubusercontent.com/80394968/164910302-3cc25a9e-775a-4bc1-94f4-0c0c5ab5ccac.jpg)
+-------------------------------------------------------------------------------------
+- After run on cell Laser Range:
+  - you can see how robot laser scanner works like scanning around. Result updates on a figure in polar design every second
+-------------------------------------------------------------------------------------
+- After run on cell 2D plot patch follow:
+  - you can see the route of the robot that follows to get to the destination
 
 
 
