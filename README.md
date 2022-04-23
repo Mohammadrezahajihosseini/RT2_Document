@@ -38,6 +38,6 @@ Has also been used *jr.publish('/movebase_client_goal', String)* and *jr.publish
 -------------------------------------------------------------------------------------
 How it works 
 ----------------------
--RadioButtons
+ -RadioButtons
 
 
