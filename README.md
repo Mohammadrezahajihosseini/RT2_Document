@@ -38,16 +38,16 @@ Has also been used *jr.publish('/movebase_client_goal', String)* and *jr.publish
 Result after widget used 
 ----------------------
 > First step 
-> 
-    you need to launc to open simulation: 
+ 
+   you need to launch to open simulation: 
   
     roslaunch final_assignment simulation_gmapping.launch
     roslaunch final_assignment move_base.launch
     roslaunch final_assignment master.launch
         
 > Second step
-> 
-    you need to run also jupyter notbook on your sys:
+ 
+   you need to run also jupyter notbook on your sys:
   
       jupyter-notebook
     
