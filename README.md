@@ -56,3 +56,18 @@ Result after widget used
    find notebook with name *jupyter_notebook_v1.ipynb*, now you have to see a page like this: 
     
 ![startup](https://user-images.githubusercontent.com/80394968/164909401-bbb2b87d-76b8-42fd-b498-b7db1d6579ca.jpg)
+-------------------------------------------------------------------------------------
+
+- You have to run every cell  
+  - After run on cell Robot behavior:
+  - you can choose from available options
+
+![image](https://user-images.githubusercontent.com/80394968/164909532-867c45dc-f1bb-42ba-bd93-82cd6c8831b2.png)
+-------------------------------------------------------------------------------------
+-
+- After run on cell Insert Goal:
+![Goal](https://user-images.githubusercontent.com/80394968/164909799-a3ebd9b0-699a-490c-965f-49a032de3df6.jpg)
+
+
+
+
