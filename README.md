@@ -57,16 +57,39 @@ Result after widget used
     
 ![startup](https://user-images.githubusercontent.com/80394968/164909401-bbb2b87d-76b8-42fd-b498-b7db1d6579ca.jpg)
 -------------------------------------------------------------------------------------
-
-- You have to run every cell  
+*You have to run every cell*
   - After run on cell Robot behavior:
-  - you can choose from available options
+    - you can choose from available options
 
 ![image](https://user-images.githubusercontent.com/80394968/164909532-867c45dc-f1bb-42ba-bd93-82cd6c8831b2.png)
 -------------------------------------------------------------------------------------
--
 - After run on cell Insert Goal:
+  - you can insert coordinate as indicated
+
 ![Goal](https://user-images.githubusercontent.com/80394968/164909799-a3ebd9b0-699a-490c-965f-49a032de3df6.jpg)
+-------------------------------------------------------------------------------------
+- After run on cell Stop Button:
+  - you can stop robot
+
+![stop](https://user-images.githubusercontent.com/80394968/164909960-4b9b20f6-16b5-4310-a900-d2062907751a.jpg)
+-------------------------------------------------------------------------------------
+- After run on cell Driving with Keyboards:
+  - you can drive robots with the following keys
+
+![Keyboard](https://user-images.githubusercontent.com/80394968/164910028-a2ff29c9-ad6b-429d-8681-5df5f003ff2b.jpg)
+-------------------------------------------------------------------------------------
+- After run on cell Controll Velocity:
+  - you can change angular and linear velocity of robot in three different directions and also you can creat Rate with desired frequency to continuously publish selected speed otherwise entered speed is only published once as a stroke to robot
+
+![Velocity](https://user-images.githubusercontent.com/80394968/164910208-442ac60b-f557-41e1-894f-cd3740131ba5.jpg)
+-------------------------------------------------------------------------------------
+- After run on cell 3D Viewer:
+  - you can see robot in 3D environment, like [RViz](http://wiki.ros.org/rviz).
+
+![3D](https://user-images.githubusercontent.com/80394968/164910302-3cc25a9e-775a-4bc1-94f4-0c0c5ab5ccac.jpg)
+
+
+
 
 
 
