@@ -90,12 +90,13 @@ Result after widget used
 -------------------------------------------------------------------------------------
 - After run on cell Laser Range:
   - you can see how robot laser scanner works like scanning around. Result updates on a figure in polar design every second
+
+![Figure 1](https://user-images.githubusercontent.com/80394968/164910767-954f52db-1ed8-40d6-be9c-47da9174f7c1.png)
 -------------------------------------------------------------------------------------
 - After run on cell 2D plot patch follow:
   - you can see the route of the robot that follows to get to the destination
-
-
-
+ 
+![Figure 1(1)](https://user-images.githubusercontent.com/80394968/164910789-7f8459e5-1bb9-4663-b4bd-63525a099068.png)
 
 
 
