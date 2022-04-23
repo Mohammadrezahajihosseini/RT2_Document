@@ -10,7 +10,6 @@ Jupyter NoteBook
 ### What we will see in this notebook:
  * Advantages of the jupyter
  * Several widgets implemented 
- * How it works 
  * Result after widget used
 
 -------------------------------------------------------------------------------------
@@ -36,8 +35,10 @@ Has also been used *jr.publish('/movebase_client_goal', String)* and *jr.publish
 *more details [click here](https://github.com/jupyter-widgets/ipywidgets/blob/master/docs/source/examples/Widget%20List.ipynb)*
 
 -------------------------------------------------------------------------------------
-How it works 
+Result after widget used 
 ----------------------
- -RadioButtons
+
+  
+ 
 
 
