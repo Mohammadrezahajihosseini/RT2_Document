@@ -32,3 +32,4 @@ Several widgets implemented
   -  Matplotlib widget 
  
 Has also been used *jr.publish('/movebase_client_goal', String)* and *jr.publish('/cmd_vel', Twist)*, subscribing to a ROS topic for insert coordinate by user and controll velocity 
+*more details [click here](https://github.com/jupyter-widgets/ipywidgets/blob/master/docs/source/examples/Widget%20List.ipynb)
