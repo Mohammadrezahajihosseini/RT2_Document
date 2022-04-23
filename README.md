@@ -12,6 +12,7 @@ Jupyter NoteBook
  * Several widgets implemented 
  * How it works 
  * Result after widget used
+
 -------------------------------------------------------------------------------------
 Advantages of the jupyter
 ----------------------
@@ -23,3 +24,10 @@ It’s easy to use other people’s work as a starting point. You can run cell b
 
 More information about jupyter notbook and how to install it on your system then refer to this [link](https://2021.aulaweb.unige.it/pluginfile.php/407745/mod_resource/content/0/rtII_2_2022.pdf)
 
+-------------------------------------------------------------------------------------
+Several widgets implemented 
+----------------------
+# 1.RadioButtons
+# 2.Button & ToggleButton
+# 3.Matplotlib widget 
+Has also been used jr.publish('/movebase_client_goal', String) and jr.publish('/cmd_vel', Twist), subscribing to a ROS topic for insert coordinate by user and controll velocity 
