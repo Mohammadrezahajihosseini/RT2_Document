@@ -7,7 +7,10 @@
 
 Jupyter NoteBook
 ================================
-
+### What we will see in this notebook:
+*
+*
+*
 
 Installing and running
 ----------------------
