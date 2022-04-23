@@ -27,7 +27,7 @@ More information about jupyter notbook and how to install it on your system then
 -------------------------------------------------------------------------------------
 Several widgets implemented 
 ----------------------
- 1.RadioButtons
- 2.Button & ToggleButton
- 3.Matplotlib widget 
-Has also been used jr.publish('/movebase_client_goal', String) and jr.publish('/cmd_vel', Twist), subscribing to a ROS topic for insert coordinate by user and controll velocity 
+ - RadioButtons
+ - Button & ToggleButton
+ - Matplotlib widget 
+Has also been used *jr.publish('/movebase_client_goal', String)* and *jr.publish('/cmd_vel', Twist)*, subscribing to a ROS topic for insert coordinate by user and controll velocity 
