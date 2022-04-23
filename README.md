@@ -8,9 +8,10 @@
 Jupyter NoteBook
 ================================
 ### What we will see in this notebook:
-*
-*
-*
+ * Advantages of the jupyter
+ * Several widgets implemented 
+ * How it works 
+ * Result after widget used
 
 Installing and running
 ----------------------
