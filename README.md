@@ -52,7 +52,7 @@ Result after widget used
       jupyter-notebook
     
 > Third step
->
-    find notebook with name *jupyter_notebook_v1.ipynb*, now you have to see a page like this: 
+
+   find notebook with name *jupyter_notebook_v1.ipynb*, now you have to see a page like this: 
     
 ![startup](https://user-images.githubusercontent.com/80394968/164909401-bbb2b87d-76b8-42fd-b498-b7db1d6579ca.jpg)
