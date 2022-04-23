@@ -1,9 +1,9 @@
-# Research_Track2
-
-*Develop third assignment of Research Track1 to control robot behavior.*
-### For more information [click here](https://mohammadrezahajihosseini.github.io/Research_Track2/)
 -------------------------------------------------------------------------------------
 ![image](https://user-images.githubusercontent.com/80394968/164893651-97509a6f-be9f-4444-a7d0-cebec382c125.png)
+-------------------------------------------------------------------------------------
+# Research_Track2
+*Develop third assignment of Research Track1 to control robot behavior.*
+### For more information about code [click here](https://mohammadrezahajihosseini.github.io/Research_Track2/)
 
 Jupyter NoteBook
 ================================
