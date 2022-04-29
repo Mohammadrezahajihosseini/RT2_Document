@@ -28,7 +28,7 @@ Several widgets implemented
 ----------------------
   -  RadioButtons
   -  Button & ToggleButton
-  -  Matplotlib widget 
+  -  Matplotlib widget & Matplotlib notebook
   -  Plot
   -  Bar_plot
  
