@@ -29,6 +29,8 @@ Several widgets implemented
   -  RadioButtons
   -  Button & ToggleButton
   -  Matplotlib widget 
+  -  Plot
+  -  Bar_plot
  
 Has also been used *jr.publish('/movebase_client_goal', String)* and *jr.publish('/cmd_vel', Twist)*, subscribing to a ROS topic for insert coordinate by user and controll velocity
 
@@ -68,11 +70,6 @@ Result after widget used
 
 ![Goal](https://user-images.githubusercontent.com/80394968/164909799-a3ebd9b0-699a-490c-965f-49a032de3df6.jpg)
 -------------------------------------------------------------------------------------
-- After run on cell Stop Button:
-  - you can stop robot
-
-![stop](https://user-images.githubusercontent.com/80394968/164910442-d7bb0518-22ff-49fe-ae0f-3daa717340fd.jpg)
--------------------------------------------------------------------------------------
 - After run on cell Driving with Keyboards:
   - you can drive robots with the following keys
 
@@ -83,6 +80,11 @@ Result after widget used
 
 ![Velocity](https://user-images.githubusercontent.com/80394968/164910208-442ac60b-f557-41e1-894f-cd3740131ba5.jpg)
 -------------------------------------------------------------------------------------
+- After run on cell Angular & Linear Velocity Viewer:
+  - you can Angular and Linear velocity of robot in 60 second
+
+![Velocity_viwer](https://user-images.githubusercontent.com/80394968/165949286-1f87a213-e596-4257-b4e1-9e746a48468b.jpg)
+-------------------------------------------------------------------------------------
 - After run on cell 3D Viewer:
   - you can see robot in 3D environment, like [RViz](http://wiki.ros.org/rviz).In this kind of visualization you can see laser, robot path, map with obstacles
 
@@ -91,13 +93,15 @@ Result after widget used
 - After run on cell Laser Range:
   - you can see how robot laser scanner works like scanning around. Result updates on a figure in polar design every second
 
-![Figure 1](https://user-images.githubusercontent.com/80394968/164910767-954f52db-1ed8-40d6-be9c-47da9174f7c1.png)
+![laser](https://user-images.githubusercontent.com/80394968/165949505-716dbce0-153f-4ece-a2bd-a99ec5e81869.jpg)
 -------------------------------------------------------------------------------------
 - After run on cell 2D plot patch follow:
   - you can see the route of the robot that follows to get to the destination
  
-![Figure 1(1)](https://user-images.githubusercontent.com/80394968/164910789-7f8459e5-1bb9-4663-b4bd-63525a099068.png)
-
-
-
-
+![odometry](https://user-images.githubusercontent.com/80394968/165949546-9e0ae27d-cbbf-4910-a8ca-1fbd15cfbce7.jpg)
+-------------------------------------------------------------------------------------
+- After run on cell Goal Status:
+  - you can see Goal status and how many goal reached, failed and total number of goal in Bar_plot diseng 
+ 
+![Goalstatus](https://user-images.githubusercontent.com/80394968/165949832-046c9d9b-205b-4ebd-962d-509661b66b56.jpg)
+-------------------------------------------------------------------------------------
